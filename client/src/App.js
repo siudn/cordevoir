@@ -1,10 +1,5 @@
 import { useEffect } from 'react';
-import {
-  BrowserRouter,
-  Routers,
-  Route,
-  useLocation
-} from 'react-route-dom';
+import { BrowserRouter, Routes, Route, useLocation} from 'react-router-dom';
 import Home from "./scenes/home/Home";
 import ItemDetails from './scenes/itemDetails/ItemDetails';
 import Checkout from "./scenes/checkout/Checkout";
