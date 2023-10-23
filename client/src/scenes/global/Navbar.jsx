@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Badge, Box, IconButton } from "@mui/material";
 import {
-    PersonOutline,
+    PersonOutlined,
     ShoppingBagOutlined,
     MenuOutlined,
     SearchOutlined
@@ -50,6 +50,10 @@ const Navbar = () => {
                 >
                     <IconButton sx={{ color: "black" }}>
                         <SearchOutlined />
+                    </IconButton>
+
+                    <IconButton sx={{ color: "black" }}>
+                        <PersonOutlined />
                     </IconButton>
 
                     <Badge
