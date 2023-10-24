@@ -6,9 +6,9 @@ Front-end is currently deployed. It's near impossible to deploy Strapi on a free
 
 Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/testing#cards).
 
-## Technologies 🤖
+# Technologies 🤖
 
-- ### **Frontend:** <img src="/client/src/assets/react.svg" alt="React Icon" width="50" height="50">
+- ## **Frontend** <img src="/client/src/assets/react.svg" alt="React Icon" width="40" height="40">
 
   - React
   - Redux toolkit for state management
@@ -16,7 +16,7 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
   - Stripe for payment processing
   - Formik
 
-- ### **Backend (Strapi):** <img src="/client/src/assets/node.svg" alt="Node Icon" width="50" height="50">
+- ## **Backend (Strapi)** <img src="/client/src/assets/node.svg" alt="Node Icon" width="40" height="40">
 
   - Strapi as a headless CMS
   - Node.js
@@ -24,13 +24,14 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
   - PostgreSQL for deployment
   - Yup for object schema validation
 
-## Table of Contents 📚
+# Table of Contents 📚
 
 - [Features](#features)
 - [Demo](#demo)
 - [Setup](#setup)
 - [Going Forward](#goingforward)
 
+<br>
 ## Features 🖊️
 
 - **Product Catalog** 🛍️
@@ -68,12 +69,14 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
 - **Responsive Design:** 📱
   - Specifically optimized for both mobile and desktop devices.
 
+<br>
 ## Demo
 
 [![Live Demo](demo-link)]
 
 Live demo coming very soon
 
+<br>
 ## Setup 📝
 
 ### 1. Clone the repository
@@ -119,6 +122,7 @@ npm start
 
 Then, simply visit [link](https://cordevoir.vercel.app/) and content will be displayed! The website is designed to work off your locally hosted backend.
 
+<br>
 ## Going Forward
 
 Will definitely add more features, like account creation and validation, memory stored on the server, search, an actual hosted backend, cooler animations, etc.
