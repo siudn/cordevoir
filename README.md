@@ -77,40 +77,40 @@ Live demo coming very soon
 
 ## Setup
 
-1. **Clone the repository**
-
-   ```bash
-   git clone git@github.com:siudn/cordevoir.git
-   cd cordevoir
-   ```
-
-2. **.env Setup**
+### 1. Clone the repository
 
 ```bash
- cd server
- npm install
+git clone git@github.com:siudn/cordevoir.git
+cd cordevoir
+```
+
+### 2. **.env Setup**
+
+```bash
+cd server
+npm install
 ```
 
 Look for ".env.example" in the /server folder and change the name to just ".env". Then replace everything with the code below:
 
 ```bash
- HOST=0.0.0.0
- PORT=1337
- APP_KEYS="`openssl rand -base64 32`,`openssl rand -base64 32`"
- API_TOKEN_SALT=`openssl rand -base64 32`
- ADMIN_JWT_SECRET=`openssl rand -base64 32`
- TRANSFER_TOKEN_SALT=`openssl rand -base64 32`
- JWT_SECRET=`openssl rand -base64 32`
- STRIPE_SECRET_KEY=pasteYoursHere
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS="`openssl rand -base64 32`,`openssl rand -base64 32`"
+API_TOKEN_SALT=`openssl rand -base64 32`
+ADMIN_JWT_SECRET=`openssl rand -base64 32`
+TRANSFER_TOKEN_SALT=`openssl rand -base64 32`
+JWT_SECRET=`openssl rand -base64 32`
+STRIPE_SECRET_KEY=pasteYoursHere
 ```
 
-3. **Retrieve Stripe Secret Key**
+### 3. **Retrieve Stripe Secret Key**
 
-   To actually use the Stripe functionality, you will need to paste your own Stripe Secret Key into .env: to get one, register [here](https://dashboard.stripe.com/register), then copy your key at this [link](https://dashboard.stripe.com/register).
+To actually use the Stripe functionality, you will need to paste your own Stripe Secret Key into .env: to get one, register [here](https://dashboard.stripe.com/register), then copy your key at this [link](https://dashboard.stripe.com/register).
 
-   Paste your key into where it says `pasteYoursHere` on the .env file from Step 2.
+Paste your key into where it says `pasteYoursHere` on the .env file from Step 2.
 
-4. **Host Backend:**
+### 4. **Host Backend:**
 
 ```bash
 cd server #go to the server directory
@@ -121,3 +121,7 @@ npm start
 Then, simply visit [link](https://cordevoir.vercel.app/) and content will be displayed! The website is designed to work off your locally hosted backend.
 
 ## Going Forward
+
+Will definitely add more features, like account creation and validation, memory stored on the server, search, an actual hosted backend, cooler animations, etc.
+
+This project was tough and I spent way too much time trying to get that backend online, but it was an amazing learning experience.
