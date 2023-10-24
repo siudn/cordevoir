@@ -1,5 +1,3 @@
-<script src="https://kit.fontawesome.com/d14de0e447.js" crossorigin="anonymous"></script>
-
 # ♠️ cordevoir ♠️
 
 A fully-featured eCommerce application built with React + Redux toolkit, Strapi as a backend and content management system (CMS), and integration of the Stripe API for order and payment management.
