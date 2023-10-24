@@ -1,11 +1,12 @@
 module.exports = ({ env }) => ({
   host: env("HOST", "0.0.0.0"),
   port: env.int("PORT"),
-  url: "https://e-comm-backend-hlvb.onrender.com/",
   app: {
     keys: env.array("APP_KEYS"),
   },
   webhooks: {
     populateRelations: env.bool("WEBHOOKS_POPULATE_RELATIONS", false),
   },
+  proxy: true,
+  url: "https://e-comm-backend-hlvb.onrender.com/",
 });
