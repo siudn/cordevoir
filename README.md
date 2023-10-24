@@ -39,8 +39,7 @@ Want to test the Stripe payment feature? [Use these cards](https://stripe.com/do
 
 # Demo
 
-<iframe width="1252" height="704" src="https://www.youtube.com/embed/fbgtzejDUFc" title="React, Redux &amp; Strapi + Stripe API eCommerce Site Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fbgtzejDUFc/0.jpg)](https://www.youtube.com/watch?v=fbgtzejDUFc&ab_channel=ShadmanUddin)
 
 ## Features 🖊️
 
