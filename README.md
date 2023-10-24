@@ -6,8 +6,8 @@ Front-end is currently deployed. It's near impossible to deploy Strapi on a free
 
 Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/testing#cards).
 
-> [!IMPORTANT]
-> If you don' input a properly formatted email during Step 2 of checkout, it won't take you to the Stripe payment page.
+> [!NOTE]
+> You must input a properly formatted email during Step 2 of checkout to be taken to the Stripe payment page.
 > <br>
 
 # Technologies 🤖
