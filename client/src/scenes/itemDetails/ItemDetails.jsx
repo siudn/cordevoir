@@ -145,8 +145,6 @@ const ItemDetails = () => {
       </Box>
     </Box>
   );
-
-  return <div>ItemDetails</div>;
 };
 
 export default ItemDetails;
