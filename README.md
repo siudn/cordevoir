@@ -5,6 +5,7 @@ A fully-featured eCommerce application built with React + Redux toolkit, Strapi 
 Front-end is currently deployed. It's near impossible to deploy Strapi on a free server, but I will continue trying. See [Demo](#demo) and [Setup](#setup).
 
 Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/testing#cards).
+<br>
 
 # Technologies 🤖
 
@@ -23,62 +24,59 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
 - SQLite
 - PostgreSQL for deployment
 - Yup for object schema validation
+  <br>
 
 # Table of Contents 📚
 
-- [Features](#features)
 - [Demo](#demo)
+- [Features](#features)
 - [Setup](#setup)
 - [Going Forward](#goingforward)
+  <br>
 
+## Demo
+
+[![Live Demo](demo-link)](youtube.com)
 <br>
 
 ## Features 🖊️
 
-- **Product Catalog** 🛍️
+**Product Catalog** 🛍️
 
-  - Browse a wide range of products with short and long descriptions.
-  - Filter products based on category for easy navigation.
+- Browse a wide range of products with short and long descriptions.
+- Filter products based on category for easy navigation.
 
-- **Shopping Cart** 🛒
+**Shopping Cart** 🛒
 
-  - Add, update, and remove items from the cart.
-  - Cart items can be accessed from anywhere on the site.
+- Add, update, and remove items from the cart.
+- Cart items can be accessed from anywhere on the site.
 
-- **Checkout** ✅
+**Checkout** ✅
 
-  - 2-Step Billing and Payment Process, with functionality to mark billing address as the same as shipping.
-  - Seamless checkout process with integration of the Stripe payment API.
-  - Order confirmation after input of an [approved card](https://stripe.com/docs/testing#cards).
+- 2-Step Billing and Payment Process, with functionality to mark billing address as the same as shipping.
+- Seamless checkout process with integration of the Stripe payment API.
+- Order confirmation after input of an [approved card](https://stripe.com/docs/testing#cards).
 
-- **Backend + Admin Dashboard (Strapi)** 🐙
+**Backend + Admin Dashboard (Strapi)** 🐙
 
-  - Dynamically update products, categories, and user orders without touching a line of code.
-  - Seamlessly tied with React to access objects and their attributes from Strapi.
+- Dynamically update products, categories, and user orders without touching a line of code.
+- Seamlessly tied with React to access objects and their attributes from Strapi.
 
-- **Navbar, Carousel & Footer** 🎠
+**Navbar, Carousel & Footer** 🎠
 
-  - Fixed header with logo, search, account, cart, and menu icons.
-  - Carousel with rotating images and sales.
-  - Newsletter subscription module, footer with a description and multiple help/contact links.
+- Fixed header with logo, search, account, cart, and menu icons.
+- Carousel with rotating images and sales.
+- Newsletter subscription module, footer with a description and multiple help/contact links.
 
-- **Item Display:** 🖥️
+**Item Display** 🖥️
 
-  - Click to reveal zoomed-in view of item and a longer description.
-  - Related products displayed at the bottom.
+- Click to reveal zoomed-in view of item and a longer description.
+- Related products displayed at the bottom.
 
-- **Responsive Design:** 📱
-  - Specifically optimized for both mobile and desktop devices.
+**Responsive Design** 📱
 
-<br>
-
-## Demo
-
-[![Live Demo](demo-link)]
-
-Live demo coming very soon
-
-<br>
+- Specifically optimized for both mobile and desktop devices.
+  <br>
 
 ## Setup 📝
 
@@ -124,8 +122,8 @@ npm start
 ```
 
 Then, simply visit [link](https://cordevoir.vercel.app/) and content will be displayed! The website is designed to work off your locally hosted backend.
-
 <br>
+
 ## Going Forward
 
 Will definitely add more features, like account creation and validation, memory stored on the server, search, an actual hosted backend, cooler animations, etc.
