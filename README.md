@@ -12,7 +12,7 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
 
 # Technologies 🤖
 
-## **Frontend** <img src="/client/src/assets/react.svg" alt="React Icon" width="20" height="20">
+## **Frontend** <img src="/client/src/assets/icons/react.svg" alt="React Icon" width="20" height="20">
 
 - React
 - Redux toolkit for state management
@@ -20,7 +20,7 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
 - Stripe for payment processing
 - Formik
 
-## **Backend (Strapi)** <img src="/client/src/assets/node.svg" alt="Node Icon" width="20" height="20">
+## **Backend (Strapi)** <img src="/client/src/assets/icons/node.svg" alt="Node Icon" width="20" height="20">
 
 - Strapi as a headless CMS
 - Node.js
