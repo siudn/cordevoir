@@ -10,8 +10,6 @@ module.exports = ({ env }) => ({
       salt: env("TRANSFER_TOKEN_SALT"),
     },
   },
-  port: 10000,
-  url: "https://e-comm-backend-hlvb.onrender.com/admin",
   flags: {
     nps: env.bool("FLAG_NPS", true),
   },
