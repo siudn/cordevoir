@@ -40,7 +40,7 @@ Want to test the Stripe payment feature? [Use these cards](https://stripe.com/do
 # Demo
 
 [YouTube Video](https://www.youtube.com/watch?v=fbgtzejDUFc&ab_channel=ShadmanUddin)
-[![thumbnail](https://img.youtube.com/vi/fbgtzejDUFc/0.jpg)](https://www.youtube.com/watch?v=fbgtzejDUFc&ab_channel=ShadmanUddin
+[thumbnail](https://img.youtube.com/vi/fbgtzejDUFc/0.jpg)(https://www.youtube.com/watch?v=fbgtzejDUFc&ab_channel=ShadmanUddin)
 
 ## Features 🖊️
 
