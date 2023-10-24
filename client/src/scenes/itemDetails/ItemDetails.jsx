@@ -110,6 +110,39 @@ const ItemDetails = () => {
           </Box>
         </Box>
       </Box>
+
+      {/* INFORMATION */}
+      <Box m="20px 0">
+        <Tabs value={value} onChange={handleChange}>
+          <Tab label="DESCRIPTION" value="description" />
+          <Tab label="REVIEWS" value="reviews" />
+        </Tabs>
+      </Box>
+      <Box display="flex" flexWrap="wrap" gap="15px">
+        {value === "description" && (
+          <div>{item?.attributes?.longDescription}</div>
+        )}
+        {value === "reviews" && <div>reviews</div>}
+      </Box>
+
+      {/*RELATED ITEMS */}
+      <Box mt="50px" width="100%">
+        <Typography variant="h3" fontWeight="bold">
+          Related Products
+        </Typography>
+        <Box
+          mt="20px"
+          display="flex"
+          flexWrap="wrap"
+          columnGap="0.5%"
+          rowGap="25px"
+          justifyContent="space-between"
+        >
+          {items.slice(0, 4).map((item, i) => (
+            <Item key={`${item.name}-${i}`} item={item} />
+          ))}
+        </Box>
+      </Box>
     </Box>
   );
 
