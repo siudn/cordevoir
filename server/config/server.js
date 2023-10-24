@@ -1,6 +1,7 @@
 module.exports = ({ env }) => ({
-  host: env("HOST"),
+  host: env("HOST", "0.0.0.0"),
   port: env.int("PORT"),
+  url: "https://e-comm-backend-hlvb.onrender.com/",
   app: {
     keys: env.array("APP_KEYS"),
   },

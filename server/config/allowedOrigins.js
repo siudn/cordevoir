@@ -1,3 +1,3 @@
-const allowedOrigins = ["https://strapi-deployment-ys0h.onrender.com/"];
+const allowedOrigins = ["https://e-comm-backend-hlvb.onrender.com/"];
 
 module.exports = allowedOrigins;
