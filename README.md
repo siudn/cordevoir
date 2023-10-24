@@ -2,10 +2,13 @@
 
 A fully-featured eCommerce application built with React + Redux toolkit, Strapi as a backend and content management system (CMS), and integration of the Stripe API for order and payment management.
 
-Front-end is currently deployed. It's near impossible to deploy Strapi on a free server, but I will continue trying. See [Demo](#demo) and [Setup](#setup).
+Front-end is currently deployed. It's near impossible to deploy Strapi on a free server, but I will continue trying. See [Demo](#demo) and [Setup](#setup-📝).
 
 Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/testing#cards).
-<br>
+
+> [!IMPORTANT]
+> If you don' input a properly formatted email during Step 2 of checkout, it won't take you to the Stripe payment page.
+> <br>
 
 # Technologies 🤖
 
@@ -29,51 +32,51 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
 # Table of Contents 📚
 
 - [Demo](#demo)
-- [Features](#features)
-- [Setup](#setup)
-- [Going Forward](#goingforward)
+- [Features](#features-🖊️)
+- [Setup](#setup-📝)
+- [Going Forward](#going-forward)
   <br>
 
-## Demo
+# Demo
 
 [![Live Demo](demo-link)](youtube.com)
 <br>
 
 ## Features 🖊️
 
-**Product Catalog** 🛍️
+**Product Catalog**
 
 - Browse a wide range of products with short and long descriptions.
 - Filter products based on category for easy navigation.
 
-**Shopping Cart** 🛒
+**Shopping Cart**
 
 - Add, update, and remove items from the cart.
 - Cart items can be accessed from anywhere on the site.
 
-**Checkout** ✅
+**Checkout**
 
 - 2-Step Billing and Payment Process, with functionality to mark billing address as the same as shipping.
 - Seamless checkout process with integration of the Stripe payment API.
 - Order confirmation after input of an [approved card](https://stripe.com/docs/testing#cards).
 
-**Backend + Admin Dashboard (Strapi)** 🐙
+**Backend + Admin Dashboard (Strapi)**
 
 - Dynamically update products, categories, and user orders without touching a line of code.
 - Seamlessly tied with React to access objects and their attributes from Strapi.
 
-**Navbar, Carousel & Footer** 🎠
+**Navbar, Carousel & Footer**
 
 - Fixed header with logo, search, account, cart, and menu icons.
 - Carousel with rotating images and sales.
 - Newsletter subscription module, footer with a description and multiple help/contact links.
 
-**Item Display** 🖥️
+**Item Display**
 
 - Click to reveal zoomed-in view of item and a longer description.
 - Related products displayed at the bottom.
 
-**Responsive Design** 📱
+**Responsive Design**
 
 - Specifically optimized for both mobile and desktop devices.
   <br>
