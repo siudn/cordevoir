@@ -28,7 +28,6 @@ const Shipping = ({
 
       <Box mb="20px">
         <FormControlLabel
-          label="Same for Shipping Address"
           control={
             <Checkbox
               defaultChecked
@@ -41,6 +40,7 @@ const Shipping = ({
               }
             />
           }
+          label="Same for Shipping Address"
         />
       </Box>
 

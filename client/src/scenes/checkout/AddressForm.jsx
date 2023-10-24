@@ -126,7 +126,7 @@ const AddressForm = ({
         name={formattedName("zipCode")}
         error={formattedError("zipCode")}
         helperText={formattedHelper("zipCode")}
-        sx={{ gridColumn: "span 2" }}
+        sx={{ gridColumn: "1fr" }}
       />
     </Box>
   );
