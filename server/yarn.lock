@@ -1879,7 +1879,7 @@
 
 "@strapi/provider-upload-cloudinary@^4.14.5":
   version "4.14.5"
-  resolved "https://registry.npmjs.org/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.14.5.tgz"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.14.5.tgz#968055368e0fc1c43ec1e7ce6e391688506adf36"
   integrity sha512-6u+k9KGmC394ELRCY5PCLfFrj5f8d4hbfU63GtNZFjzGEjkdky4Ri+lQmq5FAGezOwrG8wgmCXl+jVmAtseOQA==
   dependencies:
     "@strapi/utils" "4.14.5"
