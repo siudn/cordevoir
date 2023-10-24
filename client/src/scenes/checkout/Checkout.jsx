@@ -4,7 +4,13 @@ import { Formik } from "formik";
 import { useState } from "react";
 import * as yup from "yup";
 import Shipping from "./Shipping";
+import Payment from "./Payment";
 import { shades } from "../../theme";
+import { loadStripe } from "@stripe/stripe-js";
+
+const stripePromise = loadStripe(
+  "pk_test_51O4dSUEIExHcQ2xs1bp6dkWmX5kiZMoLwjgf1ukzH0ct2MxLSnGlEocHSn53Uun3BYk0TVX8KCeOIzBUP7Qn5NNr00w6QB9GEv"
+);
 
 const Checkout = () => {
   const [activeStep, setActiveStep] = useState(0);
@@ -68,6 +74,50 @@ const Checkout = () => {
                   setFieldValue={setFieldValue}
                 />
               )}
+              {isSecondStep && (
+                <Payment
+                  values={values}
+                  errors={errors}
+                  touched={touched}
+                  handleBlur={handleBlur}
+                  handleChange={handleChange}
+                  setFieldValue={setFieldValue}
+                />
+              )}
+              <Box display="flex" justifyContent="space-between" gap="50px">
+                {!isFirstStep && (
+                  <Button
+                    fullWidth
+                    color="primary"
+                    variant="contained"
+                    sx={{
+                      backgroundColor: shades.primary[200],
+                      boxShadow: "none",
+                      color: "white",
+                      borderRadius: 0,
+                      padding: "15px 40px",
+                    }}
+                    onClick={() => setActiveStep(activeStep - 1)}
+                  >
+                    Back
+                  </Button>
+                )}
+                <Button
+                  fullWidth
+                  type="submit"
+                  color="primary"
+                  variant="contained"
+                  sx={{
+                    backgroundColor: shades.primary[400],
+                    boxShadow: "none",
+                    color: "white",
+                    borderRadius: 0,
+                    padding: "15px 40px",
+                  }}
+                >
+                  {!isSecondStep ? "Next" : "Place Order"}
+                </Button>
+              </Box>
             </form>
           )}
         </Formik>
