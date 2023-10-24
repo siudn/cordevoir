@@ -4,7 +4,7 @@ A fully-featured eCommerce application built with React + Redux toolkit, Strapi 
 
 Front-end is currently deployed. It's near impossible to deploy Strapi on a free server, but I will continue trying. See [Demo](#demo) to quickly see the site in full or [Setup](#setup-📝) if you want to locally host the backend and view the website yourself.
 
-Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/testing#cards).
+Want to test the Stripe payment feature? [Use these cards](https://stripe.com/docs/testing#cards).
 
 > [!NOTE]
 > You must input a properly formatted email during Step 2 of checkout to be taken to the Stripe payment page.
@@ -39,7 +39,7 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
 
 # Demo
 
-[![Live Demo](demo-link)](youtube.com)
+![Live Demo](https://youtu.be/fbgtzejDUFc)
 <br>
 
 ## Features 🖊️
@@ -124,7 +124,7 @@ npm run build
 npm start
 ```
 
-Then, simply visit [link](https://cordevoir.vercel.app/) and content will be displayed! The website is designed to work off your locally hosted backend.
+Then, simply visit the website's [link](https://cordevoir.vercel.app/) and all content will be displayed! The website is designed to work off of your locally hosted backend.
 <br>
 
 ## Going Forward
