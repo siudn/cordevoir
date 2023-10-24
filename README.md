@@ -8,21 +8,21 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
 
 # Technologies 🤖
 
-- ## **Frontend** <img src="/client/src/assets/react.svg" alt="React Icon" width="40" height="40">
+## **Frontend** <img src="/client/src/assets/react.svg" alt="React Icon" width="20" height="20">
 
-  - React
-  - Redux toolkit for state management
-  - Material UI
-  - Stripe for payment processing
-  - Formik
+- React
+- Redux toolkit for state management
+- Material UI
+- Stripe for payment processing
+- Formik
 
-- ## **Backend (Strapi)** <img src="/client/src/assets/node.svg" alt="Node Icon" width="40" height="40">
+## **Backend (Strapi)** <img src="/client/src/assets/node.svg" alt="Node Icon" width="20" height="20">
 
-  - Strapi as a headless CMS
-  - Node.js
-  - SQLite
-  - PostgreSQL for deployment
-  - Yup for object schema validation
+- Strapi as a headless CMS
+- Node.js
+- SQLite
+- PostgreSQL for deployment
+- Yup for object schema validation
 
 # Table of Contents 📚
 
@@ -32,6 +32,7 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
 - [Going Forward](#goingforward)
 
 <br>
+
 ## Features 🖊️
 
 - **Product Catalog** 🛍️
@@ -70,6 +71,7 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
   - Specifically optimized for both mobile and desktop devices.
 
 <br>
+
 ## Demo
 
 [![Live Demo](demo-link)]
@@ -77,6 +79,7 @@ Want to test the Stripe payment feature? [Use this](https://stripe.com/docs/test
 Live demo coming very soon
 
 <br>
+
 ## Setup 📝
 
 ### 1. Clone the repository
