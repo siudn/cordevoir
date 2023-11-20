@@ -32,7 +32,7 @@ Want to test the Stripe payment feature? [Use these cards](https://stripe.com/do
 # Table of Contents 📚
 
 - [Demo](#demo)
-- [Features](#features-🖊)
+- [Features](#features-)
 - [Setup](#setup-)
 - [Going Forward](#going-forward)
   <br>
