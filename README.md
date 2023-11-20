@@ -2,7 +2,7 @@
 
 A fully-featured eCommerce application built with React + Redux toolkit, Strapi as a backend and content management system (CMS), and integration of the Stripe API for order and payment management.
 
-Front-end is currently deployed. It's near impossible to deploy Strapi on a free server, but I will continue trying. See [Demo](#demo) to quickly see the site in full or [Setup](#-setup-📝) if you want to locally host the backend and view the website yourself.
+Front-end is currently deployed. It's near impossible to deploy Strapi on a free server, but I will continue trying. See [Demo](#demo) to quickly see the site in full or [Setup](#-setup) if you want to locally host the backend and view the website yourself.
 
 Want to test the Stripe payment feature? [Use these cards](https://stripe.com/docs/testing#cards).
 
@@ -33,7 +33,7 @@ Want to test the Stripe payment feature? [Use these cards](https://stripe.com/do
 
 - [Demo](#demo)
 - [Features](#features-🖊️)
-- [Setup](#-setup-📝)
+- [Setup](#-setup)
 - [Going Forward](#going-forward)
   <br>
 
