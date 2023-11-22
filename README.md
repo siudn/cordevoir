@@ -25,7 +25,6 @@ Want to test the Stripe payment feature? [Use these cards](https://stripe.com/do
 - Strapi as a headless CMS
 - Node.js
 - SQLite
-- PostgreSQL for deployment
 - Yup for object schema validation
   <br>
 
